@@ -27,8 +27,8 @@ Most of what I publish here started as something I needed at 3am.
 |---|---|
 | [**mssql-dacpac-cicd**](https://github.com/Bugzbaggy/mssql-dacpac-cicd) | DACPAC build, Flyway migrations, policy gates, staged promotion with approvals |
 | [**tsqlt-integration-pipeline**](https://github.com/Bugzbaggy/tsqlt-integration-pipeline) | Every PR gets a disposable SQL Server 2022 — publish, integrity-check, tSQLt tests, coverage, PR comment |
-| [**sql-valid8**](https://github.com/Bugzbaggy/sql-valid8) | Multi-dialect SQL analyzer: 52 rules across SQL Server, PostgreSQL, Oracle, MySQL, SQLite |
-| [**sql-documenter**](https://github.com/Bugzbaggy/sql-documenter) | Documents SSDT objects and gates commits on documentation coverage |
+| [**nitsql**](https://github.com/Bugzbaggy/nitsql) | Multi-dialect SQL analyzer: 52 rules across SQL Server, PostgreSQL, Oracle, MySQL, SQLite |
+| [**schemalore**](https://github.com/Bugzbaggy/schemalore) | Documents SSDT objects and gates commits on documentation coverage |
 
 ### ✍️ Writing
 
