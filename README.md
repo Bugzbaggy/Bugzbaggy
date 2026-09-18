@@ -1,7 +1,7 @@
 # Hi, I'm Renz 👋
 
 SQL Server DBA working on high-volume messaging infrastructure — Always On
-availability groups across AWS and GCP, distributed AGs spanning four regions,
+availability groups across Azure, AWS and GCP, distributed AGs spanning four regions,
 and the CI/CD and observability that keeps them honest.
 
 Most of what I publish here started as something I needed at 3am.
