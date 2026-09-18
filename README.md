@@ -6,7 +6,7 @@ and the CI/CD and observability that keeps them honest.
 
 Most of what I publish here started as something I needed at 3am.
 
-🌐 [renzbagasbas.wixsite.com/renzbagasbas](https://renzbagasbas1130.wixsite.com/renzbagasbas)
+🌐 [Website](https://renzbagasbas1130.wixsite.com/renzbagasbas) · 💼 [LinkedIn](https://www.linkedin.com/in/renzbagasbas/)
 
 ---
 
