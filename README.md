@@ -6,6 +6,8 @@ and the CI/CD and observability that keeps them honest.
 
 Most of what I publish here started as something I needed at 3am.
 
+🌐 [renzbagasbas.wixsite.com/renzbagasbas](https://renzbagasbas1130.wixsite.com/renzbagasbas)
+
 ---
 
 ### 🛠 Operations & HADR
@@ -18,17 +20,17 @@ Most of what I publish here started as something I needed at 3am.
 
 | Project | What it does |
 |---|---|
-| [**mssql-dba-mcp**](https://github.com/Bugzbaggy/mssql-dba-mcp) | Read-only MCP server giving an AI agent real diagnostics across a SQL Server fleet — structurally incapable of writing |
-| [**mssql-data-api**](https://github.com/Bugzbaggy/mssql-data-api) | Governed read-only REST/GraphQL/MCP API over curated stored procedures, built on Data API Builder |
+| [**mssql-dba-mcp**](https://github.com/Bugzbaggy/mssql-dba-mcp) | Read-only MCP server giving an AI agent real diagnostics across a SQL Server fleet — error logs, memory dumps, cluster logs, Windows event log, Query Store, waits and blocking. 54 tools, dbatools-backed, and **structurally incapable of writing**: an allow-list refuses anything but `Get-`/`Test-`/`Measure-`/`Find-` before it reaches a shell |
+| [**mssql-data-api**](https://github.com/Bugzbaggy/mssql-data-api) | Governed read-only REST/GraphQL/MCP API over curated stored procedures, built on Data API Builder — now a two-endpoint stack: DAB for application data, plus a vendored **dbatools**-backed DBA MCP server for diagnostics, each with its own security posture |
 
 ### 🚦 Database CI/CD & quality
 
 | Project | What it does |
 |---|---|
 | [**mssql-dacpac-cicd**](https://github.com/Bugzbaggy/mssql-dacpac-cicd) | DACPAC build, Flyway migrations, policy gates, staged promotion with approvals |
-| [**tsqlt-integration-pipeline**](https://github.com/Bugzbaggy/tsqlt-integration-pipeline) | Every PR gets a disposable SQL Server 2022 — publish, integrity-check, tSQLt tests, coverage, PR comment |
-| [**nitsql**](https://github.com/Bugzbaggy/nitsql) | Multi-dialect SQL analyzer: 52 rules across SQL Server, PostgreSQL, Oracle, MySQL, SQLite |
-| [**schemalore**](https://github.com/Bugzbaggy/schemalore) | Documents SSDT objects and gates commits on documentation coverage |
+| [**tsqlt-integration-pipeline**](https://github.com/Bugzbaggy/tsqlt-integration-pipeline) | Every PR gets a disposable SQL Server 2022 — publish, integrity-check, tSQLt tests, coverage, and a Database Coverage Report posted back to the PR |
+| [**nitsql**](https://github.com/Bugzbaggy/nitsql) | Multi-dialect SQL static analyzer: 52 rules across SQL Server, PostgreSQL, Oracle, MySQL and SQLite — and a **Claude Code skill I built** carrying a 71-rule advisory reference with per-dialect examples and version floors |
+| [**schemalore**](https://github.com/Bugzbaggy/schemalore) | A **Claude Code skill I built** that documents SQL Server SSDT objects and gates commits on documentation coverage |
 
 ### ✍️ Writing
 
