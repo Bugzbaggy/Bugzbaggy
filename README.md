@@ -28,6 +28,7 @@ Most of what I publish here started as something I needed at 3am.
 | Project | What it does |
 |---|---|
 | [**mssql-dacpac-cicd**](https://github.com/Bugzbaggy/mssql-dacpac-cicd) | DACPAC build, Flyway migrations, policy gates, staged promotion with approvals |
+| [**sql-migration-generator**](https://github.com/Bugzbaggy/sql-migration-generator) | A **Claude Code skill** that writes the Flyway V__/R__ migrations for an SSDT branch. The repeatable script is built deterministically in dependency order, and an order check catches a foreign key before its seed (error 547) or a column used before it is added. Verified by deploying to SQL Server 2022 twice |
 | [**tsqlt-integration-pipeline**](https://github.com/Bugzbaggy/tsqlt-integration-pipeline) | Every PR gets a disposable SQL Server 2022 — publish, integrity-check, tSQLt tests, coverage, and a Database Coverage Report posted back to the PR |
 | [**nitsql**](https://github.com/Bugzbaggy/nitsql) | Multi-dialect SQL static analyzer: 52 rules across SQL Server, PostgreSQL, Oracle, MySQL and SQLite — and a **Claude Code skill I built** carrying a 71-rule advisory reference with per-dialect examples and version floors |
 | [**schemalore**](https://github.com/Bugzbaggy/schemalore) | A **Claude Code skill** that documents SQL Server SSDT objects, with a pre-commit gate that blocks SQL changes until they have been documented |
