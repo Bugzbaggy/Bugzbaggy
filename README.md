@@ -20,7 +20,7 @@ Most of what I publish here started as something I needed at 3am.
 
 | Project | What it does |
 |---|---|
-| [**mssql-dba-mcp**](https://github.com/Bugzbaggy/mssql-dba-mcp) | Read-only MCP server giving an AI agent real diagnostics across a SQL Server fleet — error logs, memory dumps, cluster logs, Windows event log, Query Store, waits and blocking. 55 tools in the default profile, dbatools-backed, and **structurally incapable of writing**: an allow-list refuses anything but `Get-`/`Test-`/`Measure-`/`Find-` before it reaches a shell |
+| [**mssql-dba-mcp**](https://github.com/Bugzbaggy/mssql-dba-mcp) | Read-only-by-default MCP server giving an AI agent real diagnostics across a SQL Server fleet — error logs, memory dumps, cluster logs, Windows event log, Query Store, waits and blocking. 55 tools in the default profile, dbatools-backed: an allow-list refuses anything but `Get-`/`Test-`/`Measure-`/`Find-` before it reaches a shell, and the one opt-in write tool reaches **dev hosts only**, proved on the live connection. Ships a headless Slack alert monitor that triages SQL Server alerts unattended |
 | [**mssql-data-api**](https://github.com/Bugzbaggy/mssql-data-api) | Governed read-only REST/GraphQL/MCP API over curated stored procedures, built on Data API Builder — a two-endpoint stack: DAB for application data, plus a vendored **dbatools**-backed DBA MCP server for diagnostics, each with its own security posture |
 
 ### 🚦 Database CI/CD & quality
