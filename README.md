@@ -50,7 +50,8 @@ from real incidents:
 Most of these share one idea: **make the dangerous thing structurally
 impossible rather than forbidden by policy.**
 
-A read-only MCP that cannot write. A data API whose read-only status is
+An MCP whose one write tool cannot reach production, checked on the live
+connection. A data API whose read-only status is
 asserted by a CI gate, not a convention. A test pipeline where only one
 unambiguous check can block you. Guardrails you can't forget to follow beat
 guardrails you're supposed to remember.
