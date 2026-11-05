@@ -43,6 +43,11 @@ from real incidents:
 - [A read-only SQL MCP, powered by dbatools](https://github.com/Bugzbaggy/Presentations/blob/master/posts/sql-server-mcp-server-for-dbas.md)
 - [Every pull request gets its own SQL Server](https://github.com/Bugzbaggy/Presentations/blob/master/posts/per-pr-database-integration-testing.md)
 
+[**animated-demo-deck**](https://github.com/Bugzbaggy/animated-demo-deck) — a **Claude Code skill** for
+animated demo talks, in four kinds (cards, console, board, dashboard), each with its own look and its own
+material. One source gives a click-paced HTML deck with a presenter view, play-once GIFs for Google Slides,
+a spoken script with target times, and a widget for a blog post.
+
 ---
 
 ### A recurring theme
